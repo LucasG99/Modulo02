@@ -1,4 +1,59 @@
-<script
-  src="https://code.jquery.com/jquery-3.6.1.min.js"
-  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-  crossorigin="anonymous"></script>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo Lucas Galvao</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+    <section>
+        <h1>Lucas Galvão</h1>
+        <img src="assets/imagens/Picsart_22-02-11_14-45-54-995 (1).jpg">
+    </section>
+    <section>
+        <h2>Informações de Contato</h2>
+        <ul>
+            <p>Telefone: (11) 96453-7835</p>
+            <p>Email: lucasoliveira.btg@hotmail.com</p>
+            <p>Linkedin: lucas.galvao@linkedin.com</p>
+        </ul>
+
+    <section>
+        <h2>Educação</h2>
+        <ul>
+            <p>Curso: Ciência da Computação</p>
+            <p>Faculdade: Instituto de Tecnologia e Liderança - Inteli</p>
+            <p>Ano de Formação: 2026</p>
+        </ul>
+    <section>
+            <h2>Experiência Profissional</h2>
+            <ul>
+                <p>Summer Job no BTG Pactual Jan - Fev 2019</p>
+                <p>Analisa de Private Equity no BTG Pactual 2020 - até o momento</p>
+            </ul>
+    <section>
+            <h2>Habilidades e Competências</h2>
+            <ul>
+                <p>Resolução de Problemas, Capacidade Analítica, Trabalho em Equipe e Inglês Fluente</p>
+            </ul>
+
+            <script>
+                $( "p" ).click(function() {
+                  $( "p" ).fadeOut( "slow" );
+                });
+            </script>
+            <script>
+                $("img").hide().fadeIn(3500);
+                $("img").hover(
+                    function(){
+                        $(this).fadeOut(3500);
+                    },
+                    function(){
+                        $(this).fadeIn(3500);
+                    });
+            </script>
+</body>
+</html>
