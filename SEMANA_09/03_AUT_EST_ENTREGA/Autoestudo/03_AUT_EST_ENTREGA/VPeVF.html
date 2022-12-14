@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ValorPresente/VPeVF.js"></script>
+    <title>VPVF</title>
+</head>
+<body>
+    <h2>O que você quer?</h2>
+    <select name="oquerQuer" id="select">
+        <option id="Valor Presente" value="valor1">Valor Presente</option>
+
+        <option id="Valor Futuro" value="valor2">Valor futuro</option>
+    </select>
+
+    <div id="vpVf"></div>
+
+    <input type="text" id="VfVp" value="" placeholder="Nem">
+    <input type="text" id="taxa" value="" placeholder="taxa">
+    <input type="text" id="tempo" value="" placeholder="tempo">
+
+    <button id="botao" onclick="calcula1()">CALCULAR</button>
+
+    <div id="saida"></div>
+</body>
+</html>
